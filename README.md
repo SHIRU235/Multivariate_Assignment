@@ -1,5 +1,5 @@
 # Multivariate_Assignment
-#  Diabetes Progression Prediction using Machine Learning
+# Diabetes Progression Prediction using Machine Learning
 
 This project builds and compares multiple machine learning models to predict the **disease progression** in diabetic patients **one year after baseline**. The goal is to develop a model that can assist physicians in identifying patients at high risk of diabetes progression.
 
@@ -19,10 +19,9 @@ Target variable: **Disease progression one year after baseline** (a continuous v
 
 ##  Project Structure
 
-- `diabetes_prediction.ipynb`: Main Jupyter notebook with code, visualizations, and model training
+- `diabetes.ipynb`: Main Jupyter notebook with code, visualizations, and model training
 - `requirements.txt`: List of Python dependencies
 - `README.md`: Project overview and usage instructions
-- `output.html`: (Optional) Exported notebook for easy viewing
 
 ---
 
@@ -37,6 +36,7 @@ Target variable: **Disease progression one year after baseline** (a continuous v
     
     ./venv/scripts/activate
 
+3. pip install -r requirements.txt
 
 #### Models Used ###:
 The notebook explores the following regression models:
@@ -65,3 +65,5 @@ MAPE (Mean Absolute Percentage Error): Measures error in percentage.
 
 ### Final Outcome ###:
 The best performing model was Polynomial Regression (Degree 1) using four features (bmi, bp, s1, s5), achieving the highest R² score on validation and test data.
+
+HTML PAGES : https://shiru235.github.io/Multivariate_Assignment/diabetes.html
